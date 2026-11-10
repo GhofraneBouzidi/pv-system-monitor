@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Data exports
+*.csv
+*.log
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Arduino build output
+build/
+*.hex
+*.elf
